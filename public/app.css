@@ -17927,6 +17927,40 @@ input[type=radio].sr-only:checked ~ div#nav-cart span {
 .header-search .s-search-results {
     z-index: 10;
 }
+.custom-marquee-wrapper {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.custom-marquee-wrapper .custom-marquee-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.custom-marquee-wrapper .custom-marquee-display {
+  overflow: hidden;
+  white-space: nowrap;
+  background: #f9f9f9;
+  padding: 0.5rem 0;
+  border-top: 1px solid #eee;
+}
+.custom-marquee-wrapper .custom-marquee-display #custom-marquee-text {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+  font-weight: 600;
+  color: #333;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .store-footer {
     position: relative;
     margin-top: 2rem;
