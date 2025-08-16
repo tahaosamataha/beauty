@@ -46,6 +46,17 @@
                     "value": "contain",
                     "key": "f4adec13-6e4c-654b-b978-b2807935ced9"
                 }
+
+                {
+  "id": "marquee_text",
+  "type": "string",
+  "format": "text",
+  "label": "نص الشريط المتحرك",
+  "description": "النص الذي سيظهر في الشريط أعلى المتجر",
+  "required": false,
+  "default": "مرحباً بكم في Beauty Theme!"
+}
+
             ],
             "options": [
                 {
