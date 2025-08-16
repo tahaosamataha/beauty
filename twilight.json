@@ -1,8 +1,15 @@
 {
-    "name": {
-        "en": "beauty",
-        "ar": "بيوتي"
-    },
+   {
+  "name": {
+    "en": "beauty",
+    "ar": "بيوتي"
+  },
+  "version": "1.0.9",
+  "repository": "https://github.com/tahaosamataha/beauty",
+  "author_email": "taha.mediabuyer@gmail.com",
+  …
+}
+
     "repository": "https://github.com/tahaosamataha/beauty",
     "author_email": "taha.mediabuyer@gmail.com",
     "features": [
